@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Neuro-Marketing Analytics</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">Vishnu Priyan</a>
+    </header>
+
+    <div id="main">
+        <article class="post featured">
+            <header class="major">
+                <h2>Neuro-Marketing Analytics and Predictive Modeling</h2>
+            </header>
+
+            <section>
+                <h3>Problem Statement</h3>
+                <p>Understanding consumer responses to advertisements is critical for creating effective marketing strategies. Traditional methods like surveys often fail to capture subconscious reactions and emotional engagement. This project aims to leverage real-time EEG signals to analyze brain activity, extracting key neuro-marketing metrics to predict consumer preferences and responses to various types of advertisements. By using machine learning models to classify and predict viewer engagement, the project seeks to provide deeper insights into consumer behavior, enabling more targeted and effective advertising campaigns.</p>
+            </section>
+
+            <section>
+                <h3>Approach</h3>
+                <p>The data for this project was collected in real-time from 22 participants using EEG headsets while they watched various advertisements. The raw EEG signals were recorded and exported into a suitable format for analysis. During the data preparation phase, we applied bandpass and notch filters to remove noise, followed by segmenting the EEG data into relevant epochs. Using wavelet decomposition, we extracted key frequency bands such as Delta, Theta, Alpha, Beta, and Gamma to generate features related to cognitive and emotional responses.
+
+                    For analytics, we calculated neuro-marketing metrics such as arousal index, cognitive performance index, and heart rate index. We employed ANOVA for feature selection and handled class imbalance using SMOTE. Machine learning models like ensemble learning and XGBoost were evaluated using confusion matrices, ROC curves, and accuracy metrics to predict consumer engagement.
+                    
+                    In visualization, SPSS was used to generate detailed plots and bar graphs that illustrated brain activity across different EEG channels and ad categories. SPSS helped in plotting significant statistical results, showcasing differences in brainwave intensities (e.g., Theta, Beta) for good and bad advertisements, aiding in interpreting consumer engagement patterns. The visualization challenges arose from the complexity of displaying multivariate EEG data, but techniques like real-time signal recording and multi-metric comparisons helped overcome these challenges.</p>
+                <ul>
+
+                </ul>
+            </section>
+
+            <section>
+                <h3>Results</h3>
+                <ul>
+                    <p>The analysis of EEG data revealed clear patterns in brain activity corresponding to different types of advertisements. Higher levels of Theta and Beta waves were observed in advertisements categorized as "liked" by participants, indicating increased emotional engagement and cognitive processing. In contrast, lower brainwave activity in these bands was found for ads categorized as "disliked," suggesting reduced attention and engagement.
+
+                        Statistical analysis through SPSS provided significant insights, with key metrics like Arousal Index and Cognitive Performance Index differentiating high-engagement ads from low-engagement ads. The use of ANOVA highlighted significant EEG features, and SMOTE effectively balanced the dataset for robust machine learning predictions.
+                        
+                        Visualizations created in SPSS showcased bar graphs comparing brainwave activity for different ad categories, revealing a clear correlation between EEG data and consumer preferences. Machine learning models, particularly XGBoost and Ensemble Learning, achieved high accuracy in predicting consumer engagement, validated through ROC curves and confusion matrices. These results demonstrated the potential for EEG-based analysis to offer deeper insights into consumer behavior, providing a foundation for more targeted and effective marketing strategies.
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        </p>
+                
+                </ul>
+            </section>
+
+            <section>
+                <h3>GitHub Repository</h3>
+                <p>View the project on GitHub: <a href="https://github.com/Vishnu-2012/Neuro-Marketing-Analytics-and-Predictive-Modelling" target="_blank">GitHub Repo</a></p>
+            </section>
+
+            <ul class="actions special">
+                <li><a href="index.html" class="button">Back to Portfolio</a></li>
+            </ul>
+        </article>
+    </div>
+</body>
+</html>

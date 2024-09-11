@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>E-commerce Data Integration and Analytics</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">Vishnu Priyan</a>
+    </header>
+
+    <div id="main">
+        <article class="post featured">
+            <header class="major">
+                <h2>E-commerce Data Integration and Analytics</h2>
+            </header>
+
+            <section>
+                <h3>Problem Statement</h3>
+                <p>E-commerce platforms generate vast amounts of data from web traffic, customer interactions, and sales. However, this data is often fragmented and unstructured, making it difficult for businesses to extract actionable insights. The challenge is to develop a streamlined ETL pipeline to integrate, clean, and analyze this data, providing valuable insights into website performance, customer sentiment, and sales trends. By addressing issues such as missing data, sentiment analysis, and time-series analysis of traffic, the goal is to empower the business with data-driven strategies for improving customer experience and operational efficiency</p>
+            </section>
+
+            <section>
+                <h3>Approach</h3>
+                <p>For this project, I sourced data from publicly available e-commerce datasets, including web traffic logs, sales data, and customer reviews. The data preparation phase involved cleaning, handling missing values through forward-filling, and normalizing fields such as traffic counts and sales amounts. Feature engineering was crucial, where temporal features like hour, day, and month were extracted from timestamps to enhance the analysis. For analytics, sentiment analysis was applied to customer reviews, involving text preprocessing steps like tokenization, stopword removal, and lemmatization, followed by sentiment scoring to classify reviews as positive, neutral, or negative. We conducted in-depth time-series analysis to uncover trends and anomalies in web traffic and sales data. Visualization challenges arose with large datasets, but we overcame them using Python’s Matplotlib and Seaborn to create clear and insightful time-series plots and sentiment histograms. Advanced techniques such as cyclical feature extraction were applied to improve our analysis of traffic patterns</p>
+            </section>
+
+            <section>
+                <h3>Results</h3>
+                <ul>
+                    <p>The ETL pipeline successfully processed and integrated web traffic and customer review data, providing clean, structured datasets for analysis. Time-series analysis of web traffic revealed key patterns, including peak hours and seasonal trends, enabling more targeted marketing strategies. Sentiment analysis on customer reviews provided a deeper understanding of customer satisfaction, categorizing reviews as positive, neutral, or negative, and identifying areas for business improvement. The visualizations created using Matplotlib and Seaborn effectively communicated these insights, highlighting traffic fluctuations and sentiment distribution. Overall, the project delivered actionable insights, contributing to more informed decision-making and potential improvements in customer engagement and operational performance.</p>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Visualizations</h3>
+                <img src="images/sentiment_polarity_distribution.png" alt="Sales Data" />
+                <img src="images/web_traffic_over_time.png" alt="Sales Data" />
+            </section>
+
+            <section>
+                <h3>GitHub Repository</h3>
+                <p>View the project on GitHub: <a href="https://github.com/Vishnu-2012/End-to-End-ETL-Project" target="_blank">GitHub Repo</a></p>
+            </section>
+
+            <ul class="actions special">
+                <li><a href="index.html" class="button">Back to Portfolio</a></li>
+            </ul>
+        </article>
+    </div>
+</body>
+</html>
